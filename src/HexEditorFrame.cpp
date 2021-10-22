@@ -213,7 +213,7 @@ HexEditorFrame::HexEditorFrame( wxWindow* parent,int id ):
 		update_enable = true;
 		myConfigBase::Get()->Write( _T("UpdateCheck"), update_enable );
 		//First Run!
-		wxMessageBox( license, _("License Agreement"));
+//		wxMessageBox( license, _("License Agreement"));
 		}
 
 
